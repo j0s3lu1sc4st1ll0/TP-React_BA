@@ -3,7 +3,9 @@ import './assets/css/notFound.css';
 
 const NotFound = () => {
     return ( 
-      <body className='NotFound'>
+      
+      <body>
+        <main className='notFound'>
         <section className="notFound">
         <div className="img">
           <img src="https://assets.codepen.io/5647096/backToTheHomepage.png" alt="Back to the Homepage" />
@@ -15,6 +17,7 @@ const NotFound = () => {
           <Link to="/" className="yes">BACK TO HOME</Link>
         </div>
       </section>
+      </main>
       </body>
      );
 }
